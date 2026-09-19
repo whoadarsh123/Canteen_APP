@@ -3,14 +3,14 @@ import { Cloche3D, OrderToken } from "./CanteenProps";
 import BillGenerated from "../assets/BillGenerated.png";
 import FoodReady from "../assets/FoodReady.png";
 import KitchenOrder from "../assets/KitchenOrder.png";
-import PlacezOrder from "../assets/Placeorder.png";
+import PlaceOrder from "../assets/PlaceOrder.png";
 
 const steps = [
   {
     n: "01",
     title: "Place Order",
     desc: "Customers browse the menu and place their order online.",
-    prop: PlacezOrder,
+    prop: PlaceOrder,
   },
   {
     n: "02",
