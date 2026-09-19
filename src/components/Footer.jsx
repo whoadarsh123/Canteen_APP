@@ -66,13 +66,13 @@ export default function Footer() {
 
             <div className="mt-6 space-y-2.5 text-sm text-orange-50/90">
               <p className="flex items-center gap-2.5">
-                <Mail className="h-4 w-4" /> hello@canteenmitra.in
+                <Mail className="h-4 w-4" />info@biosoftech.com
               </p>
               <p className="flex items-center gap-2.5">
-                <Phone className="h-4 w-4" /> +91 98765 43210
+                <Phone className="h-4 w-4" /> +91 6209688930
               </p>
               <p className="flex items-center gap-2.5">
-                <MapPin className="h-4 w-4" /> Bengaluru, India
+                <MapPin className="h-4 w-4" /> Lucknow, India
               </p>
             </div>
           </div>
