@@ -2,18 +2,14 @@ import { motion } from "framer-motion";
 import { ArrowRight, Clock, MapPin, PhoneCall } from "lucide-react";
 import { Blob } from "./Blob";
 import { Cloche3D, OrderToken, ChaiCup } from "./CanteenProps";
-import Coffee2 from "../assets/Coffee2.png";
 import Plate2 from '../assets/Plates2.png';
 import Samosa from '../assets/Samosa.png';
-
-const GRADIENT = "linear-gradient(100deg,#fbbf24,#f97316 55%,#ef4444)";
-const ICON_BG = "linear-gradient(140deg,#fbbf24,#f97316 60%,#ef4444)";
 
 const infoItems = [
   { icon: Clock, value: "Digital Ordering", label: "Working hours" },
   { icon: MapPin, value: "Real Time Tracking", label: "Get Directions" },
   { icon: PhoneCall, value: "Smart Billing", label: "Call Online" },
-  { icon: PhoneCall, value: "Inventory Control", label: "Call Online" },
+  { icon: PhoneCall, value: "Inventory Control", label: "Inventroy" },
 ];
 
 /** 3-column info row under the hero (reference style). */

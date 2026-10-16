@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, ShoppingBag, X } from "lucide-react";
+import Canteen from '../assets/Canteen.png';
 
 const links = [
   { label: "Home", href: "#" },
@@ -31,14 +32,14 @@ export default function Navbar() {
       className="fixed inset-x-0 top-0 z-50 px-4 pt-4 sm:px-6 lg:px-10"
     >
       <nav
-        className={`mx-auto flex max-w-7xl items-center justify-between rounded-3xl px-5 py-3 transition-all duration-500 sm:px-7 ${
-          scrolled
+        className={`mx-auto flex max-w-7xl items-center justify-between rounded-3xl px-5 py-3 transition-all duration-500 sm:px-7 ${scrolled
             ? "bg-white/90 shadow-[0_12px_40px_-18px_rgba(234,88,12,0.35)] backdrop-blur-xl"
             : "bg-white/60 backdrop-blur-md"
-        }`}
+          }`}
       >
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
+            <img src={Canteen} alt="#" className="h-10" />
           <span className="font-display text-lg font-extrabold tracking-tight text-zinc-900">
             Canteen <span className="text-red-700">Mitra</span>
           </span>
